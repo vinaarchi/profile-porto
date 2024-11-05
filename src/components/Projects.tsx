@@ -27,11 +27,12 @@ const Portfolio: React.FC = () => {
   return (
     <div>
         <div>
-            <h1 className="text-3xl p-10">My Project</h1>
-            <h3 className="pl-10">Some Project I have Worked on</h3>
+            <h1 className="text-5xl p-5 font-rafeny">My Project</h1>
+            <h3 className="pl-5 font-helvetica">Some Project I have Worked on</h3>
         </div>
     <div className="container mx-auto p-8">
-      <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div>
+      <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
             <div key={index} className="border border-blue-500 rounded shadow-md p-4
             transform transition-transform duration-300 hover:scale-105">
@@ -39,6 +40,7 @@ const Portfolio: React.FC = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
     </div>
   );

@@ -14,16 +14,17 @@ const TechStack = () => {
     return (
         <div>
             <div className="pl-10 pt-5">
-            <h1 className="text-3xl">
+            <h1 className="text-3xl font-rafeny">
                 TechStack
             </h1>
-            <h3 className="text-">
+            <h3 className="font-helvetica">
                 Tools and Framework i&apos;ve used
             </h3>
             </div>
         <div className="flex flex-wrap justify-center p-4">
             {list.map((tech) =>(
-                <div key={tech.name} className="m-4 p-4 border rounded-lg shadow-lg bg-white w-40 flex flex-col items-center">
+                <div key={tech.name} className="m-4 p-4 border rounded-lg shadow-lg bg-white w-30 md:w-40 flex flex-col items-center
+                transform transition-transform duration-300 hover:scale-105">
                     <img src={tech.image} alt= {`${tech.name} logo`} className="w-16 h-16 mb-2"/>
                     <h2 className="text-lg font-bold">{tech.name}</h2>
                     </div>
