@@ -35,9 +35,9 @@ const Aboutme = () => {
         <div className="text-center">
           <h1 className="font-rafeny text-5xl pb-6 font-light">About me</h1>
           <h3 className="text-lg font-helvetica font-light">
-            "I&apos;m a new web developer passionate about building responsive
+            I&apos;m a new web developer passionate about building responsive
             and user-friendly websites. Continuously learning and eager to grow
-            in the tech world."
+            in the tech world.
           </h3>
         </div>
       </Badge>
