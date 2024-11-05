@@ -15,7 +15,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
   deskripsi,
   techStack,
-  role,
   image,
   link,
 }) => {

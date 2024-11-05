@@ -11,9 +11,9 @@ const config: Config = {
   theme: {
   	extend: {
 		fontFamily: {
-			wolfsburgcastle : ["woldsburgcastle", "sans-serif"],
 			helvetica: ["helvetica", "sans-serif"],
-		},
+			rafeny: ["rafeny", "sans-serif"],
+		  },
   		colors: {
   			background: 'var(--background)',
   			foreground: 'var(--foreground)'

@@ -18,7 +18,7 @@ const TechStack = () => {
                 TechStack
             </h1>
             <h3 className="text-">
-                Tools and Framework i've used
+                Tools and Framework i&apos;ve used
             </h3>
             </div>
         <div className="flex flex-wrap justify-center p-4">
