@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 
 const Navbar = () => {
   const handleClick = () => {
-    window.open("https://wa.me/6281379914662", "_blank");
+    return window.open("https://wa.me/6281379914662", "_blank");
   };
   return (
     <div className="shadow-md z-10 relative p-5 font-rafeny">

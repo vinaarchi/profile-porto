@@ -20,7 +20,7 @@ const Hero = () => {
           />
         </div>
         <div className="w-full md:w-2/3 text-center md:text-left">
-          <h1 className="text-4xl md:text-6xl font-rafeny">
+          <h1 className="text-6xl md:text-6xl font-rafeny">
             Hello, It&apos;s Archi
           </h1>
           <h2 className="text-lg pb-5 font-helvetica">
