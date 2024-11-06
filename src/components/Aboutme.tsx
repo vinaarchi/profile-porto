@@ -9,7 +9,7 @@ const Aboutme = () => {
   useEffect(() => {
     // Event listener untuk scroll
     const handleScroll = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 500) {
         // Ganti 100 dengan threshold yang diinginkan
         setIsScrolled(true);
       } else {
@@ -34,7 +34,7 @@ const Aboutme = () => {
       >
         <div className="text-center">
           <h1 className="font-rafeny text-5xl pb-6 font-light">About me</h1>
-          <h3 className="text-lg font-helvetica font-light">
+          <h3 className="text-sm font-helvetica font-light">
             I&apos;m a new web developer passionate about building responsive
             and user-friendly websites. Continuously learning and eager to grow
             in the tech world.

@@ -31,7 +31,7 @@ const Hero = () => {
             target="_blank" // Membuka link di tab baru
             rel="noopener noreferrer" // Keamanan saat membuka link di tab baru
           >
-            <Button className="bg-blue-300 rounded-full font-rafeny">
+            <Button className="bg-blue-300 rounded-full font-rafeny transform transition-transform duration-300 hover:scale-125">
               Check my GitHub
             </Button>
           </a>
